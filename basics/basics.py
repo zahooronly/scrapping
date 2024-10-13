@@ -43,5 +43,15 @@ states=[
 for state in states:
     # print(state)
     # conditions
-    if state=="Florida":
+    if state=="Floria":
         print(state)
+        
+# functions
+def state_availability(state):
+    if state in states:
+        print("yes")
+        return True
+    else:
+        print("no")
+        return False
+# state_availability("Florida")
